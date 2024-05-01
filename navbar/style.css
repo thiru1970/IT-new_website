@@ -1,0 +1,13 @@
+.product-menu {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.product-menu.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
