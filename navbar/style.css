@@ -9,5 +9,23 @@
 }
 
 
-
-
+.blur-section {
+    transition: filter 2s ease; /* Smooth transition for the blur effect */
+  }
+  
+  .blur-section.blurred {
+    filter: blur(3px); /* Apply blur effect */
+  }
+  
+  .text-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s ease; /* Smooth transition for opacity */
+  }
+  
+  
+  
+  

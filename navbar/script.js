@@ -32,5 +32,21 @@ document.addEventListener('DOMContentLoaded', function() {
     closeMobileMenuButton.classList.add('hidden');
     });
 
+
+      
     
-    
+    setTimeout(function() {
+        document.querySelector('.blur-section').classList.add('blurred');
+        
+        // Create new text element
+        var newText = document.createElement('div');
+        newText.className = 'text-container';
+        newText.innerHTML = '<p class="text-white text-lg text-center">New Text Here</p>';
+        document.body.appendChild(newText);
+      
+        // Trigger opacity change after a short delay to ensure smooth transition
+        setTimeout(function() {
+          newText.style.opacity = '1';
+        }, 50);
+      }, 2000); // Add the 'blurred' class after 2 seconds
+      
