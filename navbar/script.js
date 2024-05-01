@@ -33,20 +33,42 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-      
+
     
-    setTimeout(function() {
-        document.querySelector('.blur-section').classList.add('blurred');
-        
-        // Create new text element
-        var newText = document.createElement('div');
-        newText.className = 'text-container';
-        newText.innerHTML = '<p class="text-white text-lg text-center">New Text Here</p>';
-        document.body.appendChild(newText);
-      
-        // Trigger opacity change after a short delay to ensure smooth transition
-        setTimeout(function() {
-          newText.style.opacity = '1';
-        }, 50);
-      }, 2000); // Add the 'blurred' class after 2 seconds
-      
+
+    // Wrap the code in a function to execute when the page loads
+window.onload = function() {
+    var text = "Software Solutions";
+    var index = 0;
+  
+    // Clear existing text content
+    document.getElementById('typing-animation').innerText = '';
+  
+    // Start typing animation
+    function type() {
+      if (index < text.length) {
+        // Append next character
+        document.getElementById('typing-animation').innerText += text.charAt(index);
+        index++;
+        // Call type function recursively after a delay
+        setTimeout(type, 100); // Adjust typing speed by changing delay (in milliseconds)
+      }
+    }
+  
+    // Start typing animation when the page loads
+    type();
+  }
+
+  
+
+
+
+
+
+
+
+
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("animation-text").classList.add("animation-start");
+  });
+  

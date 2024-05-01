@@ -9,23 +9,49 @@
 }
 
 
-.blur-section {
-    transition: filter 2s ease; /* Smooth transition for the blur effect */
+
+
+
+/* Hide overflow to prevent scrollbar when text exceeds container */
+#typing-animation {
+    overflow: hidden;
+  }
+
+  
+
+  .jump-svg {
+    animation: jumpAnimation 0.3s infinite alternate;
   }
   
-  .blur-section.blurred {
-    filter: blur(3px); /* Apply blur effect */
+  @keyframes jumpAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
   }
   
-  .text-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  
+  
+
+
+
+  .animate-slide-in {
+    animation: slideIn 1s ease forwards;
     opacity: 0;
-    transition: opacity 2s ease; /* Smooth transition for opacity */
+    transform: translateX(-50px);
   }
   
-  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
   
   
