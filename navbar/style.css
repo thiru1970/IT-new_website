@@ -1,3 +1,4 @@
+
 .product-menu {
     transition: opacity 0.3s ease, visibility 0.3s ease;
     opacity: 0;
@@ -53,5 +54,65 @@
       transform: translateX(0);
     }
   }
+
+
+
+   /* Our Services Hover */
+   .hover-scale {
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .hover-scale:hover {
+    transform: scale(1.03);
+  }
+
+  .card {
+    transition: transform 0.4s ease;
+  }
   
-  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+
+
+
+  @keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.animate {
+    animation: zoomIn 1s forwards;
+}
+
+
+
+
+
+.portfolio-hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+}
+
+.portfolio-img:hover .portfolio-hover {
+  opacity: 1; /* Show on hover */
+  transform: scale(1); /* Scale to 1 (normal size) */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+
+
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="/navbar/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<header class="bg-white lg:mt-7 mb-4 lg:-mb-3 pr-0">
-    <nav class="mx-auto flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+<!-- Navbar -->
+<header class="bg-white lg:mt-4 mb-4 lg:-mb-3">
+    <nav class="mx-auto flex items-center justify-between p-6 lg:px-1" aria-label="Global">
       <div class="hidden lg:flex lg:flex-1">
         <a href="#" class="-m-1.5 p-1.5">
             <img class="h-8 w-auto inline pr-1" src="/navbar/images/Logo Transparent.png" alt="">
@@ -50,10 +51,10 @@
                         </div>
                         <div class="flex-auto">
                             <a href="#" class="block font-semibold text-gray-900">
-                                Engagement
+                                Prompt2Flow
                                 <span class="absolute inset-0"></span>
                             </a>
-                            <p class="mt-1 text-gray-600">Speak directly to your customers</p>
+                            <p class="mt-1 text-gray-600">Convert your ideas into flowcharts</p>
                         </div>
                     </div>
                 </div>
@@ -121,36 +122,9 @@
     </div>   
 </header>  
 <body class="lg:px-32 text-gray-800">
-    <!-- <section class="bg-gradient-to-br from-gray-100 to-gray-50 rounded-2xl p-5 mb-10 mx-5 mt-2">
-        <div class="container">
-            <div class=flex>
-                <a class="lg:text-3xl text-2xl font-bold pr-5 border-r border-purple-300 lg:ml-24 lg:mt-8" href="index.html">Software Solutions</a>
-              </div>
-            <div class="flex py-12 lg:py-36">
-                <div class="w-full lg:w-1/2">
-                  <h2 class="lg:ml-24 text-center lg:mt-16 -ml-3 lg:text-left text-3xl lg:text-7xl font-bold lg:font-semibold">Where Technology meets Unique ideas!</h2>                  
-                </div>
-              <div class="w-1/2 md:h-1/3 lg:w-1/5 lg:ml-56">
-                  <img src="/navbar/images/Logo Transparent.png" class="lg:-mt-6" alt="">
-               </div>
-            </div>
-        </div>    
-    </section>    
-
-      <br>
-      <div class="flex justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-800">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
-        </svg>
-        <span class="ml-2 mb-5 text-gray-800">Scroll Down</span>        
-      </div>   -->
-      
-      
-      <section class="bg-gradient-to-br from-gray-200 to-gray-50 rounded-2xl p-5 mb-10 mx-5 mt-2">
+    <!-- Hero Section -->
+      <section class="rounded-2xl p-5 mb-10">
         <div class="container mx-auto">
-          <div class=flex>
-            <a class="text-2xl font-bold pr-5 border-r border-purple-300 mr-5" id="typing-animation">Software Solutions</a>
-          </div>
           <div class="flex py-12 lg:py-36">
             <div class="w-full lg:w-1/2">
                 <h2 class="text-center lg:text-left text-3xl lg:text-7xl font-bold lg:font-semibold lg:ml-44 animate-slide-in">Where technology meets unique ideas!</h2>
@@ -163,13 +137,288 @@
            </div>
           </div>
           <div class="flex justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 jump-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 jump-svg hidden lg:inline">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
               </svg>              
-            <span class="ml-2">Scroll Down</span>        
+              <span class="ml-2 hidden lg:inline">Scroll Down</span>     
           </div>
         </div>
       </section>
+      <!--Services Section -->
+      <section id="services-section" class="rounded-2xl p-5 mb-10">
+        <div class="container mx-auto">
+           <div class="py-16 lg:py-28">
+               <h2 class="text-center text-3xl lg:text-5xl font-semibold">What we do?</h2>
+           </div>
+           <div class="flex flex-wrap pb-16 lg:pb-28 justify-center">
+               <div class="w-full lg:w-1/3 xl:w-1/3 py-5 lg:p-5 card">
+                   <div class="p-10 rounded-2xl shadow-lg">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-12 text-black">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                       </svg>            
+                       <h3 class="text-2xl font-bold text-black">Web
+                        Development</h3>
+                       <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam tempora earum. Pariatur enim laboriosam aut maiores doloremque, voluptatum reprehenderit unde omnis recusandae accusantium eligendi laudantium! Est suscipit doloremque eligendi.</p>
+                   </div>
+               </div>
+               <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5 card">
+                   <div class="p-10 rounded-2xl shadow-lg">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-12 text-black">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+                       </svg>            
+                       <h3 class="text-2xl font-bold text-black">UI / UX</h3>
+                       <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam tempora earum. Pariatur enim laboriosam aut maiores doloremque, voluptatum reprehenderit unde omnis recusandae accusantium eligendi laudantium! Est suscipit doloremque eligendi.</p>
+                   </div>
+               </div>
+               <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5 card">
+                <div class="p-10 rounded-2xl shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-12 text-black">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+                    </svg>            
+                    <h3 class="text-2xl font-bold text-black">Python
+                        (Web apps
+                        Desktop apps)</h3>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam tempora earum. Pariatur enim laboriosam aut maiores doloremque, voluptatum reprehenderit unde omnis recusandae accusantium eligendi laudantium! Est suscipit doloremque eligendi.</p>
+                </div>
+                </div>
+            <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5 card">
+                <div class="p-10 rounded-2xl shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-12 text-black">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+                    </svg>            
+                    <h3 class="text-2xl font-bold text-black">Wix</h3>
+                    <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam tempora earum. Pariatur enim laboriosam aut maiores doloremque, voluptatum reprehenderit unde omnis recusandae accusantium eligendi laudantium! Est suscipit doloremque eligendi.</p>
+                </div>
+            </div>
+               <div class="w-full lg:w-1/2 xl:w-1/3 py-5 lg:p-5 card">
+                   <div class="p-10 rounded-2xl shadow-lg">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-12 text-black">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 3.75 9.375v-4.5ZM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 0 1-1.125-1.125v-4.5ZM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0 1 13.5 9.375v-4.5Z" />
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75ZM6.75 16.5h.75v.75h-.75v-.75ZM16.5 6.75h.75v.75h-.75v-.75ZM13.5 13.5h.75v.75h-.75v-.75ZM13.5 19.5h.75v.75h-.75v-.75ZM19.5 13.5h.75v.75h-.75v-.75ZM19.5 19.5h.75v.75h-.75v-.75ZM16.5 16.5h.75v.75h-.75v-.75Z" />
+                       </svg>
+                       <h3 class="text-2xl font-bold text-black">College
+                        Projects</h3>
+                       <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam tempora earum. Pariatur enim laboriosam aut maiores doloremque, voluptatum reprehenderit unde omnis recusandae accusantium eligendi laudantium! Est suscipit doloremque eligendi.</p>
+                   </div>
+               </div>
+            </div>
+        </div>
+      </section>
+      <!-- Companies section -->
+      <section id="companies-section" class="rounded-2xl p-5 mb-10">
+        <div class="container mx-auto p-0 lg:px-28">
+            <h2 class="text-center text-3xl lg:text-5xl font-semibold">Companies who trust on us!</h2>
+            <div class="flex flex-wrap justify-center mt-10">
+                <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <img src="/navbar/images/dummy_logo.png" alt="" class="mx-auto max-h-12">
+                </div>
+                <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <img src="/navbar/images/dummy_logo.png" alt="" class="mx-auto max-h-12">
+                </div>
+                <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <img src="/navbar/images/dummy_logo.png" alt="" class="mx-auto max-h-12">
+                </div>
+                <div class="p-5 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                    <img src="/navbar/images/dummy_logo.png" alt="" class="mx-auto max-h-12">
+                </div>
+            </div>
+        </div>  
+       </section>
+       <!-- Our Work-->
+       <section class="projects" id="projects" class="rounded-2xl p-5 mb-10">
+        <div class="portfolio-1 py-6 md:py-12">
+            <div class="container px-4 mx-auto">
+                <div class="md:flex md:-mx-4">
+                    <div class="px-4 md:w-10/12 xl:w-8/12 mx-auto text-center">
+                        <h1 class="text-center text-3xl lg:text-5xl font-semibold">Our Work</h1>
+                    </div>
+                </div>
+                <div class="md:flex md:flex-wrap md:-mx-4 mt-6 pt-6 md:mt-12">
+                    <div class="px-4 md:w-1/2 lg:w-1/3">
+                        <div class="max-w-sm mx-auto mb-4">
+                            <div class="portfolio-img relative rounded-lg overflow-hidden">
+                                <img src="//via.placeholder.com/400x300" alt="" class="max-w-full h-auto">
+                                <div class="portfolio-hover flex items-center justify-center absolute left-0 top-0 right-0 bottom-0 h-full transform scale-75 opacity-0 text-white transition-transform">
+                                    <button class="bg-transparent border border-white py-2 px-4 rounded-md">View Details</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-meta text-center p-4 md:px-6">
+                                <h5 class="text-lg font-medium">Lion - The King</h5>
+                                <p class="text-gray-600 uppercase">John Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4 md:w-1/2 lg:w-1/3">
+                        <div class="max-w-sm mx-auto mb-4">
+                            <div class="portfolio-img relative rounded-lg overflow-hidden">
+                                <img src="//via.placeholder.com/400x300" alt="" class="max-w-full h-auto">
+                                <div class="portfolio-hover flex items-center justify-center absolute left-0 top-0 right-0 bottom-0 h-full transform scale-75 opacity-0 text-white transition-transform">
+                                    <button class="bg-transparent border border-white py-2 px-4 rounded-md">View Details</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-meta text-center p-4 md:px-6">
+                                <h5 class="text-lg font-medium">Lion - The King</h5>
+                                <p class="text-gray-600 uppercase">John Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4 md:w-1/2 lg:w-1/3">
+                        <div class="max-w-sm mx-auto mb-4">
+                            <div class="portfolio-img relative rounded-lg overflow-hidden">
+                                <img src="//via.placeholder.com/400x300" alt="" class="max-w-full h-auto">
+                                <div class="portfolio-hover flex items-center justify-center absolute left-0 top-0 right-0 bottom-0 h-full transform scale-75 opacity-0 text-white transition-transform">
+                                    <button class="bg-transparent border border-white py-2 px-4 rounded-md">View Details</button>
+                                </div>
+                            </div>
+                            <div class="portfolio-meta text-center p-4 md:px-6">
+                                <h5 class="text-lg font-medium">Lion - The King</h5>
+                                <p class="text-gray-600 uppercase">John Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- More similar code for other projects -->
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- Stats -->
+    <section class="projects" id="projects" class="rounded-2xl p-5 mb-10">
+        <div class="bg-white py-24 sm:py-32">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                  <dt class="text-base leading-7 text-gray-600">Months of business</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">8+</dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                  <dt class="text-base leading-7 text-gray-600">Projects delivered</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">10+</dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                  <dt class="text-base leading-7 text-gray-600">Satisfied customers</dt>
+                  <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">9+</dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <a href=""><dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">MSME</dd></a>
+                    <dt class="text-base leading-7 text-gray-600">Verified</dt>
+                  </div>
+              </dl>
+            </div>
+          </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="projects" id="projects" class="rounded-2xl p-5 mb-10 bg-gradient-to-tr from-slate-200 to-slate-50  text-slate-800 flex flex-col justify-center items-center min-h-screen relative px-4">
+        <main class="bg-white my-4 w-full max-w-5xl rounded-3xl text-center p-8 sm:p-16 transition-all duration-500 ease-in-out">
+            <h1 class="text-center text-3xl lg:text-5xl font-semibold">A word from our customers</h1>
+            <br>
+            <br>
+    
+            <div class="mt-6 lg:mt-10 grid grid-cols-1 sm:grid-cols-[60px_auto_60px] [grid-template-areas:'slider_slider'_'nav-left_nav-right'] sm:[grid-template-areas:'nav-left_slider_nav-right'] gap-2 sm:gap-6
+                [&>button]:rounded-full
+                [&>button]:w-10
+                [&>button]:h-10
+                [&>button]:shrink-0
+                [&>button]:text-gray-600
+                [&>button]:text-2xl
+                [&>button]:transition-all 
+                [&>button]:duration-500
+                [&_button]:relative
+                [&_button]:isolate
+                [&_button]:bg-black
+                sm:[&>button]:mt-8
+                before:[&>button]:absolute
+                before:[&>button]:inset-px
+                before:[&>button]:transition-all
+                before:[&>button]:duration-300
+                before:[&>button]:-z-10 
+                before:[&>button]:rounded-full
+                hover:before:[&>button]:inset-full
+                before:[&>button]:bg-white
+                hover:[&>button]:text-white
+                hover:[&>button]:bg-black
+                hover:[&>button]:border-black
+            ">
+                <button data-slide="prev" class="[grid-area:nav-left] material-symbols-outlined">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                      </svg>                                       
+                </button>
+                <div id="slider" class="[grid-area:slider]">
+                    <div id="list-cards" class="grid [grid-template-areas:'stack'] overflow-hidden ">
+                        <!-- cards loaded here -->
+                    </div>
+                </div>
+                <button data-slide="next" class="[grid-area:nav-right] material-symbols-outlined ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>   
+                </button>
+            </div>
+        </main>
+    
+        <!-- template - cards -->
+        <template id="tpl-card">
+            <div class="card [grid-area:stack] opacity-0">
+                <blockquote class="bg-black text-white rounded-md p-6 text-sm transition-all duration-500 scale-0 relative isolate
+                    before:absolute
+                    before:bg-black
+                    before:w-4
+                    before:h-4
+                    before:rotate-45
+                    before:-bottom-2
+                    before:left-2/4
+                    before:-translate-x-2/4
+                    before:-z-10
+                    before:-translate-y-full
+                    before:transition
+                    before:duration-500
+                    before:delay-500
+                "></blockquote>
+                <div class="details text-sm translate-y-[150px] transition-all duration-500 flex flex-col items-center gap-2 mt-6">
+                    <img review-img class="w-16 h-16 object-cover rounded-full" alt="">
+                    <div class="">
+                        <p review-name class="text-sm font-bold"></p>
+                        <p review-role class="text-xs"></p>
+                    </div>  
+                </div>
+            </div>
+        </template>
+    </section>
+    <!-- Footer -->
+    <footer class="text-black rounded-2xl p-5 mb-5">
+        <div class="text-center text-gray-500 border-t border-gray-500">
+        </div>
+        <div class="flex flex-wrap py-12">
+          <div class="p-5 lg:p-10 w-full md:w-1/3">
+            <h2 class="font-extrabold text-2xl">Agency</h2>
+            <p class="text-gray-400 mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque exercitationem eaque corporis autem, repellat culpa ab consequatur rerum doloribus accusamus corrupti.</p>
+          </div>
+          <div class="p-5 lg:p-10 lg:pl-64 w-full md:w-1/3">
+            <h2 class="font-extrabold text-xl">Address</h2>
+            <p class="text-gray-400 mt-3">
+              Address Line 1 <br />
+              Address Line 2 <br />
+              Address Line 3 <br />
+              Address Line Pin-000000 <br />
+            </p>
+          </div>
+          <div class="p-5 lg:p-10 w-full lg:pl-80 md:w-1/3">
+            <h2 class="font-extrabold text-xl">Enquiries</h2>
+            <p class="text-gray-400 mt-3">
+              <a href="tel:+910000000000">000-000-0000</a><br />
+              <a href="mailto:contact@gmail.com">contact@gmail.com</a><br />
+            </p>
+            <ul class="flex mt-4">
+              <li class="mx-1 p-2 bg-white shadow rounded"><a class="text-gray-500" href=""><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a></li>
+              <li class="mx-1 p-2 bg-white shadow rounded"><a class="text-gray-500" href=""><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a></li>
+              <li class="mx-1 p-2 bg-white shadow rounded"><a class="text-gray-500" href=""><svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center text-gray-500 border-t border-gray-500 pt-3">
+          All Rights Reserved
+        </div>
+      </footer>
     <script src="/navbar/script.js">
     </script>
 </body>
